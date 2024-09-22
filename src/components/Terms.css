@@ -1,0 +1,111 @@
+
+  .terms-background {
+    background-image: url('https://i.pinimg.com/564x/59/6a/d3/596ad36b83f9ac3e0ba663e0cbbfd612.jpg'); /* Update with your background image path */
+    background-size: cover;
+    background-position: center;
+    color: black; /* Black text */
+    min-height: 100vh;
+    padding-bottom: 2rem; /* Space below the terms container */
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #000000;
+  }
+  
+  .navbar-left .navbar-title {
+    font-size: 1.5rem;
+    color: #ffffff;
+    font-weight: bold;
+  }
+  
+  .navbar-right {
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar-text {
+    margin-right: 1rem;
+    font-size: 1rem;
+  }
+  
+  .terms-gap {
+    height: 10rem; /* Adjust gap height as needed */
+    background-color: transparent; /* Ensures the background image shows through */
+  }
+  
+  .terms-content {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  
+  .terms-card {
+    background-color: #ffffff; /* White card */
+    padding: 2rem;
+    border-radius: 8px;
+    width: 60%;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  .terms-title {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    text-align: center;
+  }
+  
+  .terms-point {
+    display: flex;
+    align-items: center;
+    margin: 0.5rem 0;
+    cursor: pointer; /* Pointer cursor for interactivity */
+  }
+  
+  .terms-checkbox {
+    margin-right: 0.5rem;
+  }
+  
+  .info-icon {
+    margin-left: 0.5rem;
+    color: #007bff; /* Icon color */
+    transition: color 0.3s;
+  }
+  
+  .info-icon:hover {
+    color: #0056b3; /* Darker on hover */
+  }
+  
+  .term-description {
+    margin-top: 0.5rem;
+    font-size: 0.9rem;
+    color: #555; /* Slightly lighter color for description */
+  }
+  
+  .accept-button {
+    margin-top: 1.5rem;
+    background-color: #28a745;
+    border: none;
+    color: white;
+    padding: 0.75rem 1.5rem;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+    display: block;
+    width: 100%;
+  }
+  
+  .accept-button:hover {
+    background-color: #218838;
+    transform: scale(1.05);
+  }
+  
+  .animation-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+  }
+  

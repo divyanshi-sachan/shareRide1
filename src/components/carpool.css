@@ -1,0 +1,200 @@
+
+body, html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    height: 100%;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.carpool-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #000;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; 
+    overflow-y: hidden;
+}
+
+.background-image {
+    position: relative;
+    width: 100%;
+    height: 60vh;
+    background: url('https://cdn.pixabay.com/photo/2023/03/16/08/42/camping-7856198_1280.jpg') no-repeat center center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+.overlay {
+    text-align: center;
+    color: #fff;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+}
+
+.carpool-heading {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+}
+
+.carpool-description {
+    font-size: 1.25rem;
+    margin-bottom: 40px;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.6);
+}
+
+.grid-container {
+    width: 100%;
+    overflow: hidden;
+    padding: 20px;
+    background-color: #000;
+}
+
+.grid-heading {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.grid-item {
+    padding: 10px;
+}
+
+.grid-item img {
+    width: 100%;
+    height: 300px; 
+    object-fit: cover;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+.grid-item img:hover {
+    transform: scale(1.05);
+}
+
+.grid-item h3 {
+    text-align: center;
+    margin-top: 10px;
+    color: black;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.why-carpool-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.why-heading {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 40px;
+    color: antiquewhite;
+    text-align: center;
+}
+
+.why-carpool-cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.card {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    max-width: 300px;
+    text-align: center;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+    color: antiquewhite;
+}
+
+.card h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: black;
+}
+
+.card p {
+    font-size: 1rem;
+    color: black;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    background-color: #f0f0f0;
+}
+
+.card .icon {
+    font-size: 3rem;
+    color: #333;
+    transition: color 0.3s ease;
+}
+
+.card:hover .icon {
+    color: #007bff;
+}
+
+.how-it-works-section {
+    background-color: #000;
+    padding: 50px 20px;
+    text-align: center;
+    color: aliceblue;
+}
+
+.how-it-works-section h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: aliceblue;
+}
+
+.how-carpool-cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.how-carpool-cards .card {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    max-width: 300px;
+    text-align: center;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.how-carpool-cards .card h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: black;
+}
+
+.how-carpool-cards .card p {
+    font-size: 1rem;
+    color: black;
+
+}

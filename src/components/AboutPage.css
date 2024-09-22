@@ -1,0 +1,196 @@
+.about-page-container {
+    font-family: Arial, sans-serif;
+    color: #333;
+  }
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #000;
+  }
+  
+  .navbar-title {
+    font-size: 1.5rem;
+    color: #ffffff;
+    font-weight: bold;
+  }
+  
+  .navbar-right {
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar-text {
+    margin-right: 1rem;
+    color: #ffffff;
+  }
+  
+  .UserButton {
+    background-color: #ff9800;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .UserButton:hover {
+    background-color: #e68900;
+  }
+ .hero-section,
+  .about-section {
+    background-image: url('https://i.pinimg.com/564x/5d/1f/29/5d1f29f9da9d3111d13dd283b8f1d450.jpg');
+    background-size: cover;
+    background-position: center;
+    color: black;
+    padding: 6rem 2rem;
+    text-align: center;
+    animation: fadeIn 2s ease-in-out;
+  }
+  
+  .hero-section h1,
+  .about-section h2 {
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+  }
+  
+  .hero-text {
+    margin-bottom: 4rem;
+  }
+  
+  .hero-text p {
+    font-size: 1.25rem;
+    margin-top: 1rem;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.4);
+  }
+
+  .about-card {
+    background-color: rgba(255, 255, 255, 0.85); 
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    margin: 2rem auto;
+    width: 60%;
+    color: #333;
+    animation: slideUp 1.5s ease;
+  }
+  .mission-section {
+    padding: 3rem 2rem;
+    background-color: #fff;
+    text-align: center;
+  }
+  
+  .mission-cards {
+    display: flex;
+    justify-content: space-around;
+    gap: 1rem;
+  }
+  
+  .mission-card {
+    flex: 1;
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, background-color 0.3s, color 0.3s;
+    cursor: pointer;
+    animation: scaleUp 1.5s ease;
+  }
+  
+  .mission-card:hover {
+    transform: translateY(-5px);
+    background-color: #000;
+    color: #fff;
+  }
+  
+  .mission-card:hover .mission-icon {
+    background-color: #ff9800;
+  }
+  
+  .mission-icon {
+    margin-bottom: 1rem;
+  }
+  
+.journey-section {
+    padding: 3rem 2rem;
+    background-color: #f4f4f4; 
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .journey-section h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
+  .journey-events {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    gap: 1rem; 
+  }
+  
+  .journey-item {
+    display: flex;
+    align-items: center; 
+    background-color: #fff;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 80%; 
+    transition: background-color 0.3s ease;
+  }
+  .journey-item:hover {
+    background-color: #e0e0e0; 
+  }
+  
+  .journey-icon {
+    margin-right: 1rem; 
+    transition: color 0.3s ease;
+  }
+  .journey-item:hover .journey-icon {
+    color: #007bff; 
+  }
+
+  .animation-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0; /* Adjust margin for spacing */
+  }
+  .footer {
+    text-align: center;
+    padding: 2rem;
+    background-color: #222;
+    color: #fff;
+  }
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  @keyframes slideUp {
+    from {
+      transform: translateY(100px);
+      opacity: 0;
+    }
+    to {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  @keyframes scaleUp {
+    from {
+      transform: scale(0.9);
+    }
+    to {
+      transform: scale(1);
+    }
+  }
+  
+   
